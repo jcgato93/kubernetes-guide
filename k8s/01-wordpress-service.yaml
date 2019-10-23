@@ -7,6 +7,6 @@ spec:
     ports:
     - port: 80 #puerto que expone
       targetPort: 80 
-      nodePort: 3000 # puerto al que apunta dentro del contenedor
+      nodePort: 30000 # puerto al que apunta dentro del contenedor
     selector:
         role: wordpress # indica que los pods con role == wordpress se les debe enviar el trafico
